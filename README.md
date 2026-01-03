@@ -7,17 +7,13 @@
 变量提取：编写关键词检索脚本，在数千个变量中精准定位 CES-D 抑郁量表（qq401 系列）、个人收入（incomea）及上网时长（qp601）等关键指标。
 
 ## 2. 项目结构
-Plaintext
-
 .
 ├── code/
-│   └── analysis.ipynb      # 包含数据清洗、EDA及建模的完整Python代码
+│   └── 1.ipynb      # 包含数据清洗、EDA及建模的完整Python代码
 ├── data/
 │   └── cfps2022.dta        # 原始数据文件 (建议放入.gitignore或说明需自行下载)
 ├── ppt/
 │   └── 汇报PPT_最终版.pdf   # 完整汇报幻灯片
-├── reports/
-│   └── 数据作品报告.docx    # 详细的研究过程与结论说明
 └── README.md               # 本说明文件
 
 ## 3.  核心研究过程
